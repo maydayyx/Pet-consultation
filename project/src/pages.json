@@ -1,0 +1,74 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^Gulu(.*)": "@/components/Gulu/Gulu$1.vue"
+		}
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "商城"
+			}
+		},
+		{
+			"path": "pages/friendship/friendship",
+			"style": {
+				"navigationStyle": "default",
+				"navigationBarTitleText": "宠圈"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#333",
+		"selectedColor": "#FF9933",
+		"backgroundColor": "#fff",
+		"borderStyle": "white",
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icon/home_def.png",
+				"selectedIconPath": "static/icon/home_def.png"
+			},
+			{
+				"text": "商城",
+				"pagePath": "pages/cart/cart",
+				"iconPath": "static/icon/商城.png",
+				"selectedIconPath": "static/icon/商城.png"
+			},
+			{
+				"text": "宠圈",
+				"pagePath": "pages/friendship/friendship",
+				"iconPath": "static/icon/宠圈.png",
+				"selectedIconPath": "static/icon/宠圈.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/my/my",
+				"iconPath": "static/icon/我的.png",
+				"selectedIconPath": "static/icon/我的.png"
+			}
+		]
+	}
+}
