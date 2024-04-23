@@ -176,7 +176,7 @@
 
 <script setup>
 // 引入GuluCard组件 ，卡片
-import GuluCard from "@/components/Gulu/GuluCard.vue";
+// import GuluCard from "@/components/Gulu/GuluCard.vue";
 
 const topicList = [
   {

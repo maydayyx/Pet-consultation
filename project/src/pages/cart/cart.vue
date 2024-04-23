@@ -68,7 +68,6 @@
 </template>
 
 <script setup>
-import { time } from 'echarts';
 
 const list = [
   {
